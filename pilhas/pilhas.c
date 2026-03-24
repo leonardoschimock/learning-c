@@ -13,11 +13,12 @@ int main ()
     topo = 3;
     pi[topo] = 9;
     topo = 4;
+    pi[topo] = 19;
 
-    printf("Ordem de saída da pilha: \n");
-    for (i = topo - 1; i >= 0; i--) {
+    for (i = topo; i >= 0; i--) {
         printf("%d\n", pi[i]);
     }
+
 
     return 0;
 
