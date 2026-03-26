@@ -19,9 +19,6 @@ int main() {
 
     pop();
     pop();
-    pop();
-    pop();
-    pop();
     
 	exibirPilha();
 
@@ -43,7 +40,7 @@ void pop() {
         printf("Pilha vazia!\n");
     } else {
         topo--;
-        printf("Topo agora: %d\n", pilha[topo]);
+        printf("Topo agora: %d = %d\n", topo, pilha[topo]);
     }
 }
 
