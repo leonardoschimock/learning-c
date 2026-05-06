@@ -41,6 +41,7 @@ void mostrar(){
 
 //operação com a fila
 int main(){
+    printf("\n\n====== MENU =========\n\n");
     inserir(10);
     inserir(20);
     inserir(30);
@@ -52,5 +53,6 @@ int main(){
     inserir(50);
     inserir(60); // cheia
     mostrar();
+    printf("\n=====================\n\n");
     return 0;
 }
